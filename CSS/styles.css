@@ -1,0 +1,184 @@
+.logo img{
+  height:90px;
+  margin:0px 0px;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+
+}
+#navbar::before{
+  content:"";
+  background-color:#C9D8B6;
+  position:absolute;
+  height:10%;
+  width:100%;
+
+  z-index:-1;
+  opacity:.4;
+}
+
+
+#navbar ul{
+  display:flex;
+
+}
+#navbar ul li{
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul li a{
+  display:block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+.item a{
+  color:#171010;
+}
+.ti{
+  margin-left: 120%;
+  text-align: center;
+}
+.btn {
+  background: #2C2E43;
+  background-image: -webkit-linear-gradient(top, #2C2E43, #);
+  background-image: -moz-linear-gradient(top, #2C2E43, #);
+  background-image: -ms-linear-gradient(top, #2C2E43, #);
+  background-image: -o-linear-gradient(top, #2C2E43, #);
+  background-image: linear-gradient(to bottom, #2C2E43, #);
+  -webkit-border-radius: 36;
+  -moz-border-radius: 36;
+  border-radius: 36px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px;
+  text-decoration: none;
+  margin-left: 50px;
+height:auto;
+display:flex;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.portal{
+  height:50%;
+  position: relative;
+}
+.portal h1{
+  font-size: 40px;
+  text-align:center;
+  padding: 0px 40px 0px 30px;
+}
+.portal h2{
+  font-size: 20px;
+  text-align:
+  center;
+  padding: 0px 40px 0px 30px;
+  color:#595260;
+}
+.portal img{
+  height:20%;
+  width:30%;
+  padding:0px 70%;
+align-items: stretch;
+vertical-align: middle;
+}
+.btn1 {
+  background: #2B2B2B;
+  background-image: -webkit-linear-gradient(top, #2B2B2B, #423F3E);
+  background-image: -moz-linear-gradient(top, #2B2B2B, #423F3E);
+  background-image: -ms-linear-gradient(top, #2B2B2B, #423F3E);
+  background-image: -o-linear-gradient(top, #2B2B2B, #423F3E);
+  background-image: linear-gradient(to bottom, #2B2B2B, #423F3E);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 40%;
+  margin-top: 0px;
+  margin-bottom:100%;
+}
+
+.btn1:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+#home{
+  display:flex;
+  flex-direction: column;
+  height:400px;
+  padding:2px 200px;
+  justify-content: center;
+  align-items: center;
+}
+#home::before{
+  content:"";
+  background: url('https://thumbs.dreamstime.com/b/online-shopping-concept-open-laptop-store-icon-buy-payme-payment-business-marketing-digital-network-connection-work-128335516.jpg') no-repeat center center/cover;
+  position:absolute;
+  height:700px;
+  width:100%;
+
+  z-index:-1;
+}
+.head{
+  font-size: 70px;
+  margin-top: 50px;
+}
+.btn3 {
+  background: #ccc7de;
+  background-image: -webkit-linear-gradient(top, #ccc7de, #61485e);
+  background-image: -moz-linear-gradient(top, #ccc7de, #61485e);
+  background-image: -ms-linear-gradient(top, #ccc7de, #61485e);
+  background-image: -o-linear-gradient(top, #ccc7de, #61485e);
+  background-image: linear-gradient(to bottom, #ccc7de, #61485e);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn3:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+footer{
+  background: black;
+  color:white;
+margin-top: 150px;
+width:100%;
+  text-align: center;
+
+}
+.center{
+  height: 10%;
+  width:100%;
+  margin-bottom: 20px;
+}
